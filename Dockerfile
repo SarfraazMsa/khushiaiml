@@ -7,7 +7,7 @@ COPY Master_children_dataset_Udaipur.csv ./
 COPY malnutrition.xlsx ./
 RUN python generate_dashboard.py
 
-EXPOSE 8080
+EXPOSE 8050
 CMD ["python", "./dashboard.py"]
 
 
